@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Мой проект</title>
+ <style>
+  .box {
+   border: 2px solid purple;
+   background-color: bisque;
+   border-radius: 20px;
+   padding: 20px;
+   margin: 50px auto;
+   width: 60%;
+   text-align: center;
+  }
+ </style>
+</head>
+<body>
+ <div class="box">
+  <p id="welcome">Добро пожаловать на сайт моего проекта </p>
+  <p id="click"> Нажми на меня <span>&#128521</span></p>
+ </div>
+ <script>
+  var welcome = document.getElementById("welcome")
+  var click = document.getElementById("click")
+  var videoLink = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+  var welcomeInterval = setInterval(function() {
+   var currentText = welcome.innerHTML
+   welcome.innerHTML = currentText.substr(1) + currentText[0]
+  }, 100)
+
+  setTimeout(function() {
+   clearInterval(welcomeInterval)
+   welcome.innerHTML = ""
+   click.style.display = "block"
+  }, 10000)
+  click.addEventListener("click", function() {
+   window.open(videoLink)
+   document.querySelector(".box").innerHTML = "Спасибо за внимание"
+  })
+ </script>
+</body>
+</html>
+
