@@ -1,0 +1,107 @@
+
+.procent-1 {
+    position: absolute;
+    padding: 4px 8px 4px 8px;
+    border-radius: 5px;
+    background-color: #339933;
+    color: #FFFFFF;
+    margin: 60px 0px 0px 200px;
+    font-weight: 700;
+    }
+    .tool-item-1 {
+    display: flex; 
+    flex-wrap: nowrap;
+    }
+    .tool-item-1 img {
+    border-radius: 15px;
+    border: 1px solid #DDDDDD;
+    margin-left: 20px;
+    width:500px;
+    height:472px;
+    }
+    .tool-price-1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 20px 0px 0px 20px;
+    width: 600px;
+    margin-bottom: 15px;
+    }
+    .tool-price-1 h3 {
+    width: 100%;
+    margin-bottom: 5%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 900;
+    font-size: 30px;
+    }
+    .tool-price-1 h4 {
+    font-size: 50px;
+    font-weight: 700;
+    }
+    .tool-price-1 h5 {
+    padding: 20px 0px 0px 10px;
+    font-size: 30px;
+    text-decoration: line-through;
+    color: #8B8B8B;
+    }
+    .plus-minus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 150px;
+    height: 50px;
+    font-weight: 700;
+    border: 1px solid #8B8B8B;
+    border-radius: 5px;
+    margin: 10px 0px 10px;
+    }
+    .button {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #8B8B8B;
+    border: 1px solid #8B8B8B;
+    }
+    .value {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    }
+    .add-button {
+    padding: 15px 70px 15px;
+    border-radius: 5px;
+    background-color: #339933;
+    color: #FFFFFF;
+    margin: 10px;
+    font-weight: 700;
+    text-align: center;
+    }
+    .count {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    }
+    .description {
+      text-align: left;
+      line-height: 20px;
+      padding: 10px 0px 10px;
+    }
+    .description h3 {
+    font-size: 20px;
+    font-weight: 600;
+    }
+    .description h4 {
+    font-size: 16px;
+    font-weight: 400;
+    }
+    .description h5 {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    color:#282828;
+    padding: 10px 0px 10px;}

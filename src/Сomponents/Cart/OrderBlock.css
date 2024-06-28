@@ -1,0 +1,77 @@
+.tool-block{  
+  margin-left: 20px;
+  width: 600px;
+  height: 200px;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  }
+  .tool-block img{  
+    width: 180px;
+    height: 200px;
+    }
+  .tool-description {
+    border-left-color: lightgrey;
+    border-left-style: solid;
+    }
+    .tool-name-1 {
+      margin: 10px 0px 10px 20px; 
+      width: 85%;
+      height: 50px;
+      font-size: 20px;
+      }
+      .close {
+        margin-top: 25px;
+        height: 15%;
+        cursor: pointer;
+        }
+        .close::before,
+        .close::after {
+        content: '';
+        position: relative;
+        display: block;
+        width: 35px;
+        height: 1px;
+        background: #000;
+        }
+        .close::before {
+          transform: rotate(45deg);
+        }
+        .close::after {
+          transform: rotate(-45deg);
+        }
+        .plus-minus {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #FFFFFF;
+          width: 150px;
+          height: 50px;
+          font-weight: 700;
+          border: 1px solid #8B8B8B;
+          border-radius: 5px;
+          margin: 20px 0px 20px 20px;
+          }
+          .button {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            color: #8B8B8B;
+            border: 1px solid #8B8B8B;
+            }
+            .value {
+              width: 50px;
+              height: 50px;
+              text-align: center;
+              line-height: 50px;
+              }
+              .price {
+                font-size: 30px;
+                font-weight: 700;
+                }
+                .sale-price {
+                  font-size: 15px;
+                  text-decoration: line-through;
+                  color: #8B8B8B;
+                  }
+              

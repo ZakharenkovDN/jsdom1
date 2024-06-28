@@ -1,0 +1,64 @@
+main {
+  color: #333; 
+}
+.main-head {
+display: flex; 
+flex-wrap: wrap;  
+}
+.main-head h1 {
+font-size: 80px;
+font-weight: 1000;
+line-height: 70.4px;
+text-align: left;
+margin: 50px 0px 30px 20px;
+}
+.main-span {
+  margin: 15px 0px 15px 20px;
+}
+.tools {
+justify-content: left; 
+margin: 20px;
+display: flex; 
+flex-wrap: wrap;  
+}
+.procent {
+position: absolute;
+padding: 4px 8px 4px 8px;
+border-radius: 5px;
+background-color: #339933;
+color: #FFFFFF;
+margin: 10px 0px 0px 180px;
+font-weight: 700;
+}
+.tool-item img {
+border-radius: 15px;
+border: 1px solid #DDDDDD;
+margin-left: 10px;
+width: 350px;
+height: 380px;
+}
+.tool-price {
+display: flex;
+flex-wrap: wrap;
+text-align: left;
+padding: 20px 0px 0px 40px;
+width: 280px;
+margin-bottom: 15px;
+}
+.tool-price h3 {
+width: 240px;
+margin-bottom: 5%;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.tool-price h4 {
+font-size: 40px;
+font-weight: 700;
+}
+.tool-price h5 {
+padding: 20px 0px 0px 10px;
+font-size: 20px;
+text-decoration: line-through;
+color: #8B8B8B;
+}

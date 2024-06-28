@@ -1,0 +1,26 @@
+*{   
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+  }
+  nav { 
+    margin: 20px;  
+    }
+    .category-list {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .category h3 {
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    .category {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto; 
+    }
+    .category img {
+    border-radius: 15px;
+    }

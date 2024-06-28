@@ -1,0 +1,85 @@
+    main {
+    color: #333; 
+    }
+    .back {
+    margin-left: 20px;    
+    }
+    .shopping-cart,.order,.order-tools,.tool-block,.tool-description,.total,.order-details{
+    display: flex; 
+    flex-wrap: wrap;
+    }
+    .shopping-cart h1 {
+    font-size: 80px;
+    font-weight: 1000;
+    line-height: 70.4px;
+    text-align: left;
+    margin: 50px 0px 30px 0px;
+    }
+    .back {
+    position: absolute;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 75px 0px 0px 600px;
+    }
+    .back:before  {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid lightgrey;
+    }
+    .block {
+    border: 1px solid lightgrey;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    }
+    .order-tools { 
+    width: 600px;
+    height: 100%;
+    padding: 0px 0px 20px 40px;
+    }
+    .order-details {
+    flex-direction: column;
+    background-color: #F1F3F4;
+    width: 548px;
+    height: 580px;
+    border-radius: 15px;
+    margin: 0px 0px 0px 50px;
+    }
+    .order-details h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+    margin: 10px 0px 0px 20px;
+    }
+    .total h4,.order-details h4 {
+        font-size: 35px;
+        color: #8B8B8B;
+        } 
+        .order-details h4 {
+        margin: 30px 0px 10px 20px;
+        }
+        .total h1 {
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 100px;
+        margin: 0px 0px 0px 150px;
+        }
+        .total h4 {
+        margin: 40px 0px 30px 20px;
+        }
+        .field-name, .field-phone, .field-email, .order-button {
+        padding: 15px 70px 15px;
+        border-radius: 5px;
+        margin: 10px;
+        font-weight: 700;
+        text-align: center;
+        }
+        .field-name, .field-phone, .field-email {
+        background-color: #ffffff;
+        color: #8B8B8B;
+        }
+        .order-button {
+        background-color: #339933;
+        color: #FFFFFF;
+        }
